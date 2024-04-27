@@ -2,44 +2,29 @@
 #include <Windows.h>
 using namespace std;
 
-enum Color
-{
-    Black = 0,
-    Blue = 1,
-    Green = 2,
-    Cyan = 3,
-    Red = 4,
-    Magenta = 5,
-    Brown = 6,
-    LightGray = 7,
-    DarkGray = 8,
-    LightBlue = 9,
-    LightGreen = 10,
-    LightCyan = 11,
-    LightRed = 12,
-    LightMagenta = 13,
-    LightBrown = 14,
-
-};
 int main() {
-    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
     char rucka = 205;
-    cout << "\tName";
-    cout << "\t   :";
-    SetConsoleTextAttribute(hConsole, 6);
-    cout << "  \"The war and the peace\"" << endl;
-    SetConsoleTextAttribute(hConsole, 7);
-    cout << "\tAvtor";
-    cout << "\t   :";
-    cout << "    L.N. Tolstoj" << endl;
-    cout << "\tIzdatelstvo";
-    cout << ":";
-    cout << "   Piter" << endl;
-    cout << "\tPages";
-    cout << "\t   :";
-    SetConsoleTextAttribute(hConsole, 13);
-    cout << "  500" << endl;
-    SetConsoleTextAttribute(hConsole, 7);
+    cout << "\n" << (char)201;
+    cout << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka;
+    cout << (char)187 << endl;
+    cout << "\n" << (char)186;
+    cout << "\t\t\t\t\t    Poru roky";
+    cout << "\t\t\t\t\t\t" << (char)186;
+    cout << "\n\n" << (char)204;
+    cout << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << (char)203 << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << (char)203 << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << (char)203 << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka;
+    cout << (char)185 << endl;
+    cout << "\n" << (char)186;
+    cout << "\t   Zuma";
+    cout << "\t\t" << (char)186;
+    cout << "\t   Vesna";
+    cout << "\t" << (char)186;
+    cout << "\t   Lito";
+    cout << "\t\t" << (char)186;
+    cout << "\t   Ocin";
+    cout << "\t\t" << (char)186 << endl;
+    cout << "\n" << (char)200;
+    cout << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << (char)202 << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << (char)202 << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << (char)202 << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka << rucka;
+    cout << (char)188 << endl;
     system("pause");
     return 0;
 }
