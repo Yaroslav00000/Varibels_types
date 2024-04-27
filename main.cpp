@@ -23,7 +23,6 @@ enum Color
 };
 int main() {
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
-    char rucka = 205;
     cout << "\tName";
     cout << "\t   :";
     SetConsoleTextAttribute(hConsole, 6);
